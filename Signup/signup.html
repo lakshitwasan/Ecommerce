@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <button id="back"><i class="fa-solid fa-arrow-left"></i>Back</button>
+
+    <div class="main-container">
+
+        <div class="monkey-login">
+            <div class="monkey" id="monkey">
+                <img src="img/monkey-hand.png" alt="hands" id="hands">
+            </div>
+
+            <div id="head-container">
+                <h3 id="heading">CREATE ACCOUNT </h3>
+                <hr id="head-hr">
+            </div>
+
+            <div class="form">
+                <form action="">
+
+                    <div id="name-input-container">
+                        <label for="first-name" id="first-name-label">FIRST NAME</label>
+                        <div>
+                            <span>:</span>
+                            <input type="name" id="first-name" onclick="openeye()">
+                        </div>
+                    </div>
+
+                    <div id="name-input-container">
+                        <label for="last-name" id="last-name-label">LAST NAME</label>
+                        <div>
+                            <span>:</span>
+                            <input type="email" id="last-name" onclick="openeye()">
+                        </div>
+                    </div>
+
+                    <div id="email-input-container">
+                        <label for="login-email" id="login-email-label">EMAIL ID</label>
+                        <div>
+                            <span>:</span>
+                            <input type="email" placeholder="email@gmail.com" id="login-email" onclick="openeye()">
+                        </div>
+                    </div>
+                    <div id="password-input-container">
+                        <label for="login-password" id="login-password-label">PASSWORD</label>
+                        <div>
+                            <span>:</span>
+                            <input type="password" id="login-password" onclick="closeeye()">
+                        </div>
+                    </div>
+                    <div id="radio-input-container">
+                        <label for="radio-input" id="radio-input-label">REGISTER AS</label>
+                        <div id="radio-span-container">
+                            <span>:</span>
+                            <div id="radio-container">
+                                <input type="radio" id="buyer" name="buyer">Buyer
+                                <input type="radio" id="seller" name="seller">Seller
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn login">REGISTER</button>
+                    <a href="../Login/login.html">
+                        <div class="btn signup">Already Have an Account?</div>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
+    <script src="https://kit.fontawesome.com/9933029759.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
