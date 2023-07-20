@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BuyerProductPage.css">
+    <script src="https://kit.fontawesome.com/9933029759.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruda&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div id="about">
+            <button id="nav-heading">ABOUT</button>
+        </div>
+
+        <div id="search-div">
+            <i class="fa fa-search"></i>
+            <input id="search-bar" name="search-bar" type="text" required="" placeholder="Search">
+        </div>
+
+        <div id="heading">
+            <p id="heading">CLICKCART</p>
+        </div>
+
+        <div id="Shop">
+            <button id="nav-heading">SHOP</button>
+        </div>
+
+        <div id="Sign-in">
+            <button id="nav-heading">SIGN IN</button>
+        </div>
+
+        <div id="bag-container">
+            <i class="fa-solid fa-bag-shopping" id="bag"></i>
+        </div>
+    </nav>
+
+    <div id="under-nav-container">
+
+        <div class="navigation" onclick="onClickMenu()">
+            <div id="menu">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+
+            <ul class="nav" id="nav">
+                <li><a href="#">Camera</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Shoes</a></li>
+                <li><a href="#">Sofa</a></li>
+                <li><a href="#">Chair</a></li>
+                <li><a href="#">Smart Watch</a></li>
+                <li><a href="#">Laptop</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Smart Tv</a></li>
+                <li><a href="#">Speaker</a></li>
+            </ul>
+
+            <div id="all-categories">
+                <p>ALL CATEGORIES</p>
+            </div>
+
+            <div id="arrow">
+                <i class="fa-solid fa-caret-down" id="arrow"></i>
+            </div>
+
+        </div>
+
+
+        <div class="right-under-nav-container">
+            <button id="button-style">HOME</button>
+            <button id="button-style">TOP CATEGORIES</button>
+            <button id="button-style">TOP PRODUCTS</button>
+            <button id="button-style">DAILY DEAL</button>
+            <button id="button-style">ABOUT US</button>
+        </div>
+
+    </div>
+
+    <main id="main-container">
+
+        <div id="product-main-box">
+
+
+            <div id="product-image-box">
+                <img id="product-image" src="img/Iphone14pro.png" alt="">
+            </div>
+
+            <div id="product-desc-box">
+                <div id="upper-product-desc">
+                    <p id="product-name">Apple iPhone 14 Pro (128 GB, Deep Purple)</p>
+                    <div id="star-review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <hr id="upper-product-desc-underline">
+                </div>
+                <div id="lower-product-desc">
+                    <div id="price-container">
+                        <div id="price-text">PRICE:</div>
+                        <div id="price">Rs. 1,30,000.00 <span id="actual-price">Rs.1,50,000</span></div>
+                    </div>
+
+                    <div id="brand-container">
+                        <div id="brand-text">BRAND:</div>
+                        <div id="brand">Apple</div>
+                    </div>
+
+
+                    <div id="brand-container">
+                        <div id="brand-text">TYPE:</div>
+                        <div id="brand">Mobile</div>
+                    </div>
+
+
+                    <div id="quantity-container">
+                        <div id="quantity-text">QUANTITY:</div>
+                        <div id="quantity"><input type="number" name="quantity" min="1" max="9" value="1" id=""></div>
+                    </div>
+
+                    <div id="btn-container">
+                        <input id="buy-btn" type="button" value="Buy">
+                        <input id="add-cart" type="button" value="Add to Cart">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="desc-para-container">
+            <div id="desc-head-container">
+                <h2 id="desc-head">Description</h2>
+                <hr id="head-hr">
+            </div>
+            <div id="desc-para">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non
+                    proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.Excepteur sint occaecat cupidatat non
+                    proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+        </div>
+
+        <div id="review-container">
+            <div id="review-head-container">
+                <h2 id="review-head">Review</h2>
+                <hr id="head-hr">
+            </div>
+            <div id="review-info-container">
+
+                <div id="review-subhead-container">
+                    <h2 id="review-subhead">Customer Review</h2>
+                </div>
+                <div id="add-review">
+                    <input type="text" name="review" id="write-review" placeholder="Write your reviews...">
+                    <div id="product-star-review">
+                        <i class="fa-regular fa-star star-change"></i>
+                        <i class="fa-regular fa-star star-change"></i>
+                        <i class="fa-regular fa-star star-change"></i>
+                        <i class="fa-regular fa-star star-change"></i>
+                        <i class="fa-regular fa-star star-change"></i>
+                    </div>
+                    <div id="submit-btn-container">
+                        <input id="submit-btn" type="button" value="Submit">
+                    </div>
+                </div>
+                <div id="reviews-star-box">
+                    <div id="star-review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div id="product-review">
+                        <p>Very good product</p>
+                    </div>
+                </div>
+                <div id="reviews-star-box">
+                    <div id="star-review">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div id="product-review">
+                        <p>Bohot zyada mehenga hai</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer">
+
+        <div id="left-footer">
+
+            <h2 class="footer-subhead">CONTACT US</h2>
+
+            <div class="footer-info-container">
+                <div class="footer-info">
+                    <i class="fa-solid fa-location-dot footer-icons"></i>
+                    <p>1093 Marigold Lane,Coral Way, Miami,Florida, 33169</p>
+                </div>
+                <div class="footer-info">
+                    <i class="fa-solid fa-phone footer-icons"></i>
+                    <p>1234567890</p>
+                </div>
+                <div class="footer-info">
+                    <i class="fa-solid fa-envelope footer-icons"></i>
+                    <p>abcdek@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div id="middle-footer">
+            <h2 class="footer-subhead-other">PAYMENT</h2>
+
+            <div class="footer-info-container footer-other">
+                <div class="footer-info footer-center">
+                    <img src="img/visa.png" class="footer-image" alt="">
+                </div>
+                <div class="footer-info footer-center">
+                    <img src="img/paypal.png" class="footer-image" alt="">
+                </div>
+                <div class="footer-info footer-center">
+                    <img src="img/mastercard.png" class="footer-image" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="right-footer">
+            <h2 class="footer-subhead-other">SERVICE</h2>
+
+            <div class="footer-info-container footer-other">
+                <div class="footer-info footer-center">
+                    <p>About Us</p>
+                </div>
+                <div class="footer-info footer-center">
+                    <p>Contact Us</p>
+                </div>
+                <div class="footer-info footer-center">
+                    <p>Privacy Policy</p>
+                </div>
+                <div class="footer-info footer-center">
+                    <p>Delivery Info</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="BuyerProductPage.js"></script>
+</body>
+
+</html>
